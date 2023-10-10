@@ -1,4 +1,3 @@
-import About from "@/components/mainSections/About"
 import Contact from "@/components/mainSections/Contact"
 import GetStarted from "@/components/mainSections/GetStarted"
 import Projects from "@/components/mainSections/Projects"
