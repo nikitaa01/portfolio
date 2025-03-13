@@ -1,10 +1,7 @@
 /** @type {import('prettier').Config} */
 module.exports = {
-  semi: false, // This is how you turn off semicolons, by the way
+  semi: false,
   trailingComma: 'all',
-  singleQuote: true,
-  arrowParens: 'always',
-  jsxSingleQuote: false,
   tabWidth: 2,
   plugins: [require.resolve('prettier-plugin-astro'), require.resolve('prettier-plugin-tailwindcss')],
   overrides: [{ files: '*.astro', options: { parser: 'astro' } }],
