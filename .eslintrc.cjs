@@ -18,7 +18,12 @@ module.exports = {
     sourceType: "module",
   },
   plugins: ["unused-imports"],
+  root: true,
   rules: {
+    "tailwindcss/classnames-order": "warn",
+    "tailwindcss/enforces-negative-arbitrary-values": "error",
+    "tailwindcss/enforces-shorthand": "warn",
+    "tailwindcss/no-contradicting-classname": "error",
     "prettier/prettier": "error",
     "unused-imports/no-unused-imports": "error",
     "no-mixed-spaces-and-tabs": ["error", "smart-tabs"],
