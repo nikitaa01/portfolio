@@ -5,6 +5,14 @@
     "**/*",
     ".prettierrc.js"
   ],
+  "compilerOptions": {
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+    },
+    "baseUrl": "./"
+  },
   "exclude": [
     "dist"
   ]
